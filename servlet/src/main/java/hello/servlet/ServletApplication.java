@@ -11,6 +11,13 @@ public class ServletApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ServletApplication.class, args);
-    }
+     }
+
+//    스프링부트가 자동으로 해주는 과정
+//    @Bean
+//    ViewResolver internalResourceViewResolver() {
+//        return new InternalResourceViewResolver("/WEB-INF/views", ".jsp");
+//
+//    }
 
 }
